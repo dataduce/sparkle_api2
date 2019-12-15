@@ -12,7 +12,7 @@ services:
       - "8000:8000"
     depends_on:
       - db
-    container_name: web-prod
+    container_name: web
 
   nginx:
     image: nginx:1.15-alpine
