@@ -7,7 +7,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(sparkleslap.com api.sparkleslap.com)
+domains=("*.sparkleslap.com")
 rsa_key_size=4096
 data_path="./certbot"
 email="wroscoe@gmail.com" # Adding a valid address is strongly recommended
